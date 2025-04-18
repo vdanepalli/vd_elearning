@@ -1,7 +1,7 @@
 # Courses Catalog 🗺️
 
 
-_Generated: 2025-04-18 03:02 PM CDT | Includes details up to Level H4_
+_Generated: 2025-04-18 03:12 PM CDT | Includes details up to Level H4_
 
 # [DATA](courses/data/data.md)
 
@@ -100,6 +100,46 @@ _Generated: 2025-04-18 03:02 PM CDT | Includes details up to Level H4_
 # [INTERPERSONAL](courses/interpersonal/softskills.md)
 
 1. [Iafc: Six Steps To Better Presentations](courses/interpersonal/softskills.md#iafc-six-steps-to-better-presentations)
+# [PYTHON](courses/python/concepts.md)
+
+1. [Coursera: Advanced Python Development Techniques](courses/python/python.md#coursera-advanced-python-development-techniques)
+2. [Coursera: Automation And Scripting With Python](courses/python/python.md#coursera-automation-and-scripting-with-python)
+3. [Coursera: Data Analysis And Visualization With Python](courses/python/python.md#coursera-data-analysis-and-visualization-with-python)
+4. [Coursera: Project Development In Python](courses/python/python.md#coursera-project-development-in-python)
+5. [Coursera: Python Programming Fundamentals](courses/python/python.md#coursera-python-programming-fundamentals)
+    1. [Introduction](courses/python/python.md#introduction)
+    2. [Basics](courses/python/python.md#basics)
+    3. [Functions And Modules](courses/python/python.md#functions-and-modules)
+    4. [Data Structures](courses/python/python.md#data-structures)
+    5. [Error Handling And Debugging](courses/python/python.md#error-handling-and-debugging)
+    6. [Testing Basics And Version Control](courses/python/python.md#testing-basics-and-version-control)
+6. [Coursera: Web Development With Python](courses/python/python.md#coursera-web-development-with-python)
+7. [Linkedin: Level Up: Python](courses/python/python.md#linkedin-level-up-python)
+8. [Linkedin: Python Essential Training](courses/python/python.md#linkedin-python-essential-training)
+9. [Linkedin: Python Object Oriented Programming](courses/python/python.md#linkedin-python-object-oriented-programming)
+10. [Python Decorators](courses/python/concepts.md#python-decorators)
+11. [Ztm: Pytorch For Deep Learning](courses/python/pytorch.md#ztm-pytorch-for-deep-learning)
+    1. [Pytorch Fundamentals](courses/python/pytorch.md#pytorch-fundamentals)
+12. [Ztm: Python Developer](courses/python/python.md#ztm-python-developer)
+    1. [Introduction](courses/python/python.md#introduction)
+    2. [Basics](courses/python/python.md#basics)
+    3. [Developer Environment](courses/python/python.md#developer-environment)
+    4. [Object Oriented Programming](courses/python/python.md#object-oriented-programming)
+    5. [Functional Programming](courses/python/python.md#functional-programming)
+    6. [Decorators](courses/python/python.md#decorators)
+    7. [Error Handling](courses/python/python.md#error-handling)
+    8. [Generators](courses/python/python.md#generators)
+    9. [Modules](courses/python/python.md#modules)
+    10. [Debugging, File Io](courses/python/python.md#debugging-file-io)
+    11. [Regular Expressions](courses/python/python.md#regular-expressions)
+    12. [Testing](courses/python/python.md#testing)
+    13. [Python Developer](courses/python/python.md#python-developer)
+    14. [Scripting](courses/python/python.md#scripting)
+    15. [Scraping](courses/python/python.md#scraping)
+    16. [Web Development](courses/python/python.md#web-development)
+    17. [Automation Testing](courses/python/python.md#automation-testing)
+    18. [Machine Learning And Data Science](courses/python/python.md#machine-learning-and-data-science)
+    19. [Conclusion](courses/python/python.md#conclusion)
 # [SNOWFLAKE](courses/snowflake/snowflake.md)
 
 1. [Linkedin: End To End Real World Data Engineering Project With Snowflake](courses/snowflake/snowflake.md#linkedin-end-to-end-real-world-data-engineering-project-with-snowflake)
