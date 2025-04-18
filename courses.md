@@ -1,11 +1,33 @@
 # Courses Catalog 🗺️
 
 
-_Generated: 2025-04-18 02:44 PM CDT | Includes details up to Level H4_
+_Generated: 2025-04-18 02:50 PM CDT | Includes details up to Level H4_
 
 # [DATA](courses/data/data.md)
 
 1. [Linkedin: Introduction To Data Warehouses](courses/data/data.md#linkedin-introduction-to-data-warehouses)
+# [DEVOPS](courses/devops/devops.md)
+
+1. [Devops : Linux, Linux Sysadmin](courses/devops/devops.md#devops-linux-linux-sysadmin)
+    1. [Introduction](courses/devops/devops.md#introduction)
+    2. [Linux Terminal](courses/devops/devops.md#linux-terminal)
+    3. [Linux File System](courses/devops/devops.md#linux-file-system)
+    4. [User Accounts Management](courses/devops/devops.md#user-accounts-management)
+    5. [Linux File Permissions](courses/devops/devops.md#linux-file-permissions)
+    6. [Linux Process Management](courses/devops/devops.md#linux-process-management)
+    7. [Networking In Linux](courses/devops/devops.md#networking-in-linux)
+    8. [Software Management](courses/devops/devops.md#software-management)
+    9. [System Administration](courses/devops/devops.md#system-administration)
+    10. [Bash Shell Scripting](courses/devops/devops.md#bash-shell-scripting)
+    11. [Containers Using Podman](courses/devops/devops.md#containers-using-podman)
+    12. [Project 1: Containers Using Docker](courses/devops/devops.md#project-1-containers-using-docker)
+    13. [Project 2: Securing And Hardening A Linux System](courses/devops/devops.md#project-2-securing-and-hardening-a-linux-system)
+    14. [Project 3: Securing Internet Traffic With Vpns Wireguard Vpn](courses/devops/devops.md#project-3-securing-internet-traffic-with-vpns---wireguard-vpn)
+    15. [Project 4: Setting Up A Web And Dns Server](courses/devops/devops.md#project-4-setting-up-a-web-and-dns-server)
+    16. [Project 5: Automating Linux Administrative Tasks With Ansible](courses/devops/devops.md#project-5-automating-linux-administrative-tasks-with-ansible)
+    17. [Ipfs: Interplanetary File System](courses/devops/devops.md#ipfs-interplanetary-file-system)
+    18. [Ssh Public Key Authentication](courses/devops/devops.md#ssh-public-key-authentication)
+    19. [Conclusion](courses/devops/devops.md#conclusion)
 # [DSA](courses/dsa/dsa.md)
 
 1. [General: Dsa](courses/dsa/dsa.md#general-dsa)
