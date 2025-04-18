@@ -1,7 +1,7 @@
 # Courses Catalog 🗺️
 
 
-_Generated: 2025-04-18 03:24 PM CDT | Includes details up to Level H4_
+_Generated: 2025-04-18 03:29 PM CDT | Includes details up to Level H4_
 
 # [DATA](courses/data/data.md)
 
@@ -28,6 +28,21 @@ _Generated: 2025-04-18 03:24 PM CDT | Includes details up to Level H4_
     17. [Ipfs: Interplanetary File System](courses/devops/devops.md#ipfs-interplanetary-file-system)
     18. [Ssh Public Key Authentication](courses/devops/devops.md#ssh-public-key-authentication)
     19. [Conclusion](courses/devops/devops.md#conclusion)
+2. [Linkedin: Docker: Your First Project](courses/devops/docker.md#linkedin-docker-your-first-project)
+    1. [Intro](courses/devops/docker.md#intro)
+    2. [Pulling And Pushing Docker Images](courses/devops/docker.md#pulling-and-pushing-docker-images)
+    3. [Running Docker Containers](courses/devops/docker.md#running-docker-containers)
+3. [Linkedin: Learning Docker](courses/devops/docker.md#linkedin-learning-docker)
+    1. [Introduction](courses/devops/docker.md#introduction)
+    2. [Installing Docker](courses/devops/docker.md#installing-docker)
+    3. [Using Docker](courses/devops/docker.md#using-docker)
+    4. [When Things Go Wrong](courses/devops/docker.md#when-things-go-wrong)
+    5. [Additional Docker Resources](courses/devops/docker.md#additional-docker-resources)
+4. [Linkedin: Learning Docker Compose](courses/devops/docker.md#linkedin-learning-docker-compose)
+    1. [Introduction](courses/devops/docker.md#introduction)
+    2. [Getting Started With Docker Compose](courses/devops/docker.md#getting-started-with-docker-compose)
+    3. [Docker Compose Core Features](courses/devops/docker.md#docker-compose-core-features)
+    4. [Dynamic Configurations In Docker Compose](courses/devops/docker.md#dynamic-configurations-in-docker-compose)
 # [DSA](courses/dsa/dsa.md)
 
 1. [General: Dsa](courses/dsa/dsa.md#general-dsa)
