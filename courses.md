@@ -1,7 +1,7 @@
 # Courses Catalog 🗺️
 
 
-_Generated: 2025-04-18 02:56 PM CDT | Includes details up to Level H4_
+_Generated: 2025-04-18 03:02 PM CDT | Includes details up to Level H4_
 
 # [DATA](courses/data/data.md)
 
@@ -115,6 +115,12 @@ _Generated: 2025-04-18 02:56 PM CDT | Includes details up to Level H4_
 5. [Linkedin: Statistics Foundations 2: Probability](courses/statistics/statistics.md#linkedin-statistics-foundations-2-probability)
 6. [Linkedin: Statistics Foundations 3: Using Data Sets](courses/statistics/statistics.md#linkedin-statistics-foundations-3-using-data-sets)
 7. [Linkedin: Statistics Foundations 4: Advanced Topics](courses/statistics/statistics.md#linkedin-statistics-foundations-4-advanced-topics)
+# [TOOLS](courses/tools/git.md)
+
+1. [Linkedin: Practical Github Copilot](courses/tools/git.md#linkedin-practical-github-copilot)
+2. [Linkedin: Practical Github Project Management And Collaboration](courses/tools/git.md#linkedin-practical-github-project-management-and-collaboration)
+3. [Linkedin: Practical Githuub Code Search](courses/tools/git.md#linkedin-practical-githuub-code-search)
+4. [Linkedin: Practical Github Actions](courses/tools/git.md#linkedin-practical-github-actions)
 # [WEBDEV](courses/webdev/appendix.md)
 
 1. [Fyi](courses/webdev/appendix.md#fyi)
