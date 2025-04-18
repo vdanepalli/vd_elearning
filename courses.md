@@ -1,7 +1,7 @@
 # Courses Catalog 🗺️
 
 
-_Generated: 2025-04-17 02:53 PM Central Daylight Time | Includes details up to Level H4_
+_Generated: 2025-04-18 02:31 PM CDT | Includes details up to Level H4_
 
 # [DATA](courses/data/data.md)
 
@@ -27,6 +27,9 @@ _Generated: 2025-04-17 02:53 PM Central Daylight Time | Includes details up to L
 # [SNOWFLAKE](courses/snowflake/snowflake.md)
 
 1. [Linkedin: End To End Real World Data Engineering Project With Snowflake](courses/snowflake/snowflake.md#linkedin-end-to-end-real-world-data-engineering-project-with-snowflake)
+# [SQL](courses/sql/sql.md)
+
+1. [Linkedin: Learning Sql Programming](courses/sql/sql.md#linkedin-learning-sql-programming)
 # [STATISTICS](courses/statistics/statistics.md)
 
 1. [Linkedin: Excel Statistics Essential Training: 1](courses/statistics/statistics.md#linkedin-excel-statistics-essential-training-1)
