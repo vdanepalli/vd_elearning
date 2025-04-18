@@ -1,7 +1,7 @@
 # Courses Catalog 🗺️
 
 
-_Generated: 2025-04-18 02:50 PM CDT | Includes details up to Level H4_
+_Generated: 2025-04-18 02:56 PM CDT | Includes details up to Level H4_
 
 # [DATA](courses/data/data.md)
 
@@ -115,3 +115,44 @@ _Generated: 2025-04-18 02:50 PM CDT | Includes details up to Level H4_
 5. [Linkedin: Statistics Foundations 2: Probability](courses/statistics/statistics.md#linkedin-statistics-foundations-2-probability)
 6. [Linkedin: Statistics Foundations 3: Using Data Sets](courses/statistics/statistics.md#linkedin-statistics-foundations-3-using-data-sets)
 7. [Linkedin: Statistics Foundations 4: Advanced Topics](courses/statistics/statistics.md#linkedin-statistics-foundations-4-advanced-topics)
+# [WEBDEV](courses/webdev/appendix.md)
+
+1. [Fyi](courses/webdev/appendix.md#fyi)
+2. [Ztm: Web Developer](courses/webdev/appendix.md#ztm-web-developer)
+    1. [Css](courses/webdev/appendix.md#css)
+    2. [Bootstrap And Templates](courses/webdev/appendix.md#bootstrap-and-templates)
+    3. [Css Grid, Css Layout](courses/webdev/appendix.md#css-grid-css-layout)
+    4. [Web Developer As A Career](courses/webdev/appendix.md#web-developer-as-a-career)
+    5. [Dom Manipulation](courses/webdev/appendix.md#dom-manipulation)
+    6. [Javascript](courses/webdev/appendix.md#javascript)
+    7. [Command Line, Developer Environment](courses/webdev/appendix.md#command-line-developer-environment)
+    8. [Npm](courses/webdev/appendix.md#npm)
+    9. [Reactjs Fundamentals](courses/webdev/appendix.md#reactjs-fundamentals)
+    10. [Asynchronous Js](courses/webdev/appendix.md#asynchronous-js)
+    11. [Other](courses/webdev/appendix.md#other)
+    12. [How The Internet Works](courses/webdev/webdev.md#how-the-internet-works)
+        1. [Browsing The Web](courses/webdev/webdev.md#browsing-the-web)
+    13. [History Of Web](courses/webdev/webdev.md#history-of-web)
+    14. [Html5](courses/webdev/webdev.md#html5)
+    15. [Css](courses/webdev/webdev.md#css)
+    16. [Bootstrap, Templates](courses/webdev/webdev.md#bootstrap-templates)
+    17. [Css Grid, Css Layout](courses/webdev/webdev.md#css-grid-css-layout)
+    18. [Career Of A Web Developer](courses/webdev/webdev.md#career-of-a-web-developer)
+    19. [Javascript](courses/webdev/webdev.md#javascript)
+    20. [Dom Manipulation](courses/webdev/webdev.md#dom-manipulation)
+    21. [Advanced Javascript](courses/webdev/webdev.md#advanced-javascript)
+    22. [Command Line, Developer Environment](courses/webdev/webdev.md#command-line-developer-environment)
+    23. [Git, Github, Open Source Projects](courses/webdev/webdev.md#git-github-open-source-projects)
+    24. [Npm, Npm Scripts](courses/webdev/webdev.md#npm-npm-scripts)
+    25. [Reactjs Fundamentals](courses/webdev/webdev.md#reactjs-fundamentals)
+    26. [React Hooks](courses/webdev/webdev.md#react-hooks)
+    27. [Asynchronous Javascript](courses/webdev/webdev.md#asynchronous-javascript)
+    28. [Backend, Apis](courses/webdev/webdev.md#backend-apis)
+    29. [Final Project: Smart Brain Front End](courses/webdev/webdev.md#final-project-smart-brain-front-end)
+    30. [Nodejs, Expressjs](courses/webdev/webdev.md#nodejs-expressjs)
+    31. [Final Project: Smart Brain Backend Server](courses/webdev/webdev.md#final-project-smart-brain-backend-server)
+    32. [Database](courses/webdev/webdev.md#database)
+    33. [Final Project: Smart Brain Backend Database](courses/webdev/webdev.md#final-project-smart-brain-backend-database)
+    34. [Production Deployment](courses/webdev/webdev.md#production-deployment)
+    35. [Other](courses/webdev/webdev.md#other)
+    36. [Conclusion](courses/webdev/webdev.md#conclusion)
