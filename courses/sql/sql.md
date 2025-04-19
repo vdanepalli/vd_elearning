@@ -1,4 +1,9 @@
-# SQL 
+# [SQL](../../courses.md)
+
+
+- [SQL](#sql)
+  - [LinkedIn: Learning SQL Programming](#linkedin-learning-sql-programming)
+
 
 ## LinkedIn: Learning SQL Programming 
 

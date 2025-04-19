@@ -1,4 +1,23 @@
-# Deep Learning
+# [Deep Learning](../../courses.md)
+
+- [Deep Learning](#deep-learning)
+  - [MIT: Intro to Deep Learning](#mit-intro-to-deep-learning)
+    - [Introduction to Deep Learning](#introduction-to-deep-learning)
+    - [Recurrent Neural Netowkrs, Transformers, and Attention](#recurrent-neural-netowkrs-transformers-and-attention)
+    - [Convolutional Neural Networks](#convolutional-neural-networks)
+    - [Deep Generative Modeling](#deep-generative-modeling)
+    - [Introduction to Deep Learning](#introduction-to-deep-learning-1)
+    - [Sequence Modeling with Neural Networks](#sequence-modeling-with-neural-networks)
+    - [Convolutional Neural Networks](#convolutional-neural-networks-1)
+    - [Deep Generative Modeling](#deep-generative-modeling-1)
+    - [Deep Reinforcement Modeling](#deep-reinforcement-modeling)
+    - [Deep Learning Limitations and New Frontiers](#deep-learning-limitations-and-new-frontiers)
+    - [Issues in Image Classification](#issues-in-image-classification)
+    - [Faster ML Development with TensorFlow](#faster-ml-development-with-tensorflow)
+    - [Deep learning - A personal perspective](#deep-learning---a-personal-perspective)
+    - [Beyond Deep Learning: Learning + Reasoning](#beyond-deep-learning-learning--reasoning)
+    - [Computer Vision Meets Social Networks](#computer-vision-meets-social-networks)
+
 
 ## MIT: Intro to Deep Learning
 

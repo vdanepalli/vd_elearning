@@ -1,4 +1,10 @@
-# PyTorch
+# [PyTorch](../../courses.md)
+
+
+- [PyTorch](#pytorch)
+  - [ZTM: PyTorch for Deep Learning](#ztm-pytorch-for-deep-learning)
+    - [PyTorch Fundamentals](#pytorch-fundamentals)
+
 
 ## ZTM: PyTorch for Deep Learning
 

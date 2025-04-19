@@ -16,6 +16,22 @@
       - [Workflows](#workflows)
 
 
+- [Geographic Information Systems - GIS](#geographic-information-systems---gis)
+  - [ESRI: GIS Basics](#esri-gis-basics)
+  - [ESRI: GIS Foundations](#esri-gis-foundations)
+  - [ESRI: Introduction to Coordinate Systems](#esri-introduction-to-coordinate-systems)
+    - [Introduction](#introduction)
+    - [Geographic Coordinate Systems](#geographic-coordinate-systems)
+    - [Projected Coordinate Systems](#projected-coordinate-systems)
+  - [ESRI: Introduction to Spatial Data](#esri-introduction-to-spatial-data)
+  - [ESRI: Python 101 for ArcGIS](#esri-python-101-for-arcgis)
+  - [ESRI: ArcGIS Business Analyst Pro Basics](#esri-arcgis-business-analyst-pro-basics)
+  - [ESRI: ArcGIS Business Analyst Pro: Territory Design](#esri-arcgis-business-analyst-pro-territory-design)
+  - [ArcGIS Pro Sitemap](#arcgis-pro-sitemap)
+    - [Analysis  Tab](#analysis--tab)
+      - [Workflows](#workflows)
+
+
 ## ESRI: GIS Basics
 
 - tools to solve spatial problems;

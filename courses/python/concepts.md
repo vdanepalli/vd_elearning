@@ -1,4 +1,9 @@
-# General Concepts
+# [General Concepts](../../courses.md)
+
+
+- [General Concepts](#general-concepts)
+  - [Python Decorators](#python-decorators)
+
 
 ## Python Decorators
 

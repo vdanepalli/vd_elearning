@@ -1,4 +1,30 @@
-# Extensive AI for Generative Systems
+# [Extensive AI for Generative Systems](../../courses.md)
+
+
+- [Extensive AI for Generative Systems](#extensive-ai-for-generative-systems)
+  - [Extensive AI for Generative Systems V1](#extensive-ai-for-generative-systems-v1)
+    - [S0 Version Control, Python, Cursor](#s0-version-control-python-cursor)
+    - [S1 Foundations of the Transformer Architecture](#s1-foundations-of-the-transformer-architecture)
+    - [S2 Modern Language Model Internals](#s2-modern-language-model-internals)
+    - [S3 Introduction to Agentic AI](#s3-introduction-to-agentic-ai)
+    - [S4 Model Context Protocol (MCP)](#s4-model-context-protocol-mcp)
+    - [S5 Planning and Reasoning with Language Models](#s5-planning-and-reasoning-with-language-models)
+    - [S6 Memory, Context, and State Management](#s6-memory-context-and-state-management)
+    - [S7 Tool Use and External APIs](#s7-tool-use-and-external-apis)
+    - [S8 Reinforcement Learning for Agentic Behaviors](#s8-reinforcement-learning-for-agentic-behaviors)
+    - [S9 Advanced Prompt Engineering and Auto-Prompting](#s9-advanced-prompt-engineering-and-auto-prompting)
+    - [S10 Retrieval-Augmented adn Knowledge-Graph Agents](#s10-retrieval-augmented-adn-knowledge-graph-agents)
+    - [S11 Understanding Browser Based Agents](#s11-understanding-browser-based-agents)
+    - [S12 Fundamentals of Web Page Parsing](#s12-fundamentals-of-web-page-parsing)
+    - [S13 Context Maintenance in Browsers](#s13-context-maintenance-in-browsers)
+    - [S14 Building Browser-Aware Agents](#s14-building-browser-aware-agents)
+    - [S15 Introduction to Browser Automation Tools](#s15-introduction-to-browser-automation-tools)
+    - [S16 Intelligent Goal Interpretation](#s16-intelligent-goal-interpretation)
+    - [S17 Multi-Agent Systems and Collaboration](#s17-multi-agent-systems-and-collaboration)
+    - [S18 Managing Uncertainity and Error Correction](#s18-managing-uncertainity-and-error-correction)
+    - [S19 Advanced Task Orchestration](#s19-advanced-task-orchestration)
+    - [S20 Capstone - Autonomous Browser Assistant](#s20-capstone---autonomous-browser-assistant)
+
 
 ## Extensive AI for Generative Systems V1
 

@@ -19,7 +19,7 @@ Copy below commands to `pre-commit`
 # pre-commit hook
 
 echo "Running update.py before commit..."
-python3 update.py
+python3 src/update.py
 
 # Check if the python script executed successfully
 if [ $? -ne 0 ]; then

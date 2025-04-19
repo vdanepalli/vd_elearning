@@ -1,4 +1,12 @@
-# Git
+# [Git](../../courses.md)
+
+
+- [Git](#git)
+  - [LinkedIn: Practical Github Actions](#linkedin-practical-github-actions)
+  - [LinkedIn: Practical GitHub Project Management and Collaboration](#linkedin-practical-github-project-management-and-collaboration)
+  - [LinkedIn: Practical GitHub Copilot](#linkedin-practical-github-copilot)
+  - [LinkedIn: Practical GitHuub Code Search](#linkedin-practical-githuub-code-search)
+
 
 ## LinkedIn: Practical Github Actions
 

@@ -1,4 +1,8 @@
-# Agentic AI
+# [Agentic AI](../../courses.md)
+
+- [Agentic AI](#agentic-ai)
+  - [ZTM: AI Agents with AWS](#ztm-ai-agents-with-aws)
+    - [Intro](#intro)
 
 
 ## ZTM: AI Agents with AWS

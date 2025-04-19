@@ -1,4 +1,9 @@
-# Machine Learning
+# [Machine Learning](../../courses.md)
+
+- [Machine Learning](#machine-learning)
+  - [Google: Machine Learning Crash Course](#google-machine-learning-crash-course)
+    - [Introduction](#introduction)
+
 
 ## Google: Machine Learning Crash Course
 
