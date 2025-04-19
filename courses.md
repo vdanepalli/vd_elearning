@@ -1,8 +1,30 @@
 # Courses Catalog 🗺️
 
 
-_Generated: 2025-04-18 03:29 PM CDT | Includes details up to Level H4_
+_Generated: 2025-04-18 08:26 PM CDT | Includes details up to Level H4_
 
+# [AIML](courses/aiml/agents.md)
+
+1. [Google: Machine Learning Crash Course](courses/aiml/ml.md#google-machine-learning-crash-course)
+    1. [Introduction](courses/aiml/ml.md#introduction)
+2. [Mit: Intro To Deep Learning](courses/aiml/dl.md#mit-intro-to-deep-learning)
+    1. [Introduction To Deep Learning](courses/aiml/dl.md#introduction-to-deep-learning)
+    2. [Recurrent Neural Netowkrs, Transformers, And Attention](courses/aiml/dl.md#recurrent-neural-netowkrs-transformers-and-attention)
+    3. [Convolutional Neural Networks](courses/aiml/dl.md#convolutional-neural-networks)
+    4. [Deep Generative Modeling](courses/aiml/dl.md#deep-generative-modeling)
+    5. [Introduction To Deep Learning](courses/aiml/dl.md#introduction-to-deep-learning)
+    6. [Sequence Modeling With Neural Networks](courses/aiml/dl.md#sequence-modeling-with-neural-networks)
+    7. [Convolutional Neural Networks](courses/aiml/dl.md#convolutional-neural-networks)
+    8. [Deep Generative Modeling](courses/aiml/dl.md#deep-generative-modeling)
+    9. [Deep Reinforcement Modeling](courses/aiml/dl.md#deep-reinforcement-modeling)
+    10. [Deep Learning Limitations And New Frontiers](courses/aiml/dl.md#deep-learning-limitations-and-new-frontiers)
+    11. [Issues In Image Classification](courses/aiml/dl.md#issues-in-image-classification)
+    12. [Faster Ml Development With Tensorflow](courses/aiml/dl.md#faster-ml-development-with-tensorflow)
+    13. [Deep Learning A Personal Perspective](courses/aiml/dl.md#deep-learning---a-personal-perspective)
+    14. [Beyond Deep Learning: Learning + Reasoning](courses/aiml/dl.md#beyond-deep-learning-learning-reasoning)
+    15. [Computer Vision Meets Social Networks](courses/aiml/dl.md#computer-vision-meets-social-networks)
+3. [Ztm: Ai Agents With Aws](courses/aiml/agents.md#ztm-ai-agents-with-aws)
+    1. [Intro](courses/aiml/agents.md#intro)
 # [DATA](courses/data/data.md)
 
 1. [Linkedin: Introduction To Data Warehouses](courses/data/data.md#linkedin-introduction-to-data-warehouses)
