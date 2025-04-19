@@ -10,6 +10,8 @@
 
 - [04. Development Tools (e.g., Git)](#04-development-tools-eg-git-1-file)
 
+- [05. System Design](#05-system-design-1-file)
+
 - [10. AI & Machine Learning](#10-ai-machine-learning-3-files)
 
 - [11. Statistics](#11-statistics-1-file)
@@ -291,6 +293,89 @@
 <br/>
 
 #### [1.4](#1-git-4-sections) [LinkedIn: Practical GitHuub Code Search](courses/tools/git.md#linkedin-practical-githuub-code-search)
+
+<br/><br/><br>
+
+## [05. System Design (1 file)](#-waypoints)
+
+### [1.](#05-system-design-1-file) [System Design (1 section)](courses/systemdesign/systemdesign.md#system-design)
+
+#### [1.1](#1-system-design-1-section) [BYteByteGo: System Design (29 modules)](courses/systemdesign/systemdesign.md#bytebytego-system-design)
+
+1. [Scale from Zero to Millions of Users (1 lesson)](courses/systemdesign/systemdesign.md#scale-from-zero-to-millions-of-users)
+
+    1. [Should You Go Beyond Relational Databases](courses/systemdesign/systemdesign.md#should-you-go-beyond-relational-databases)
+
+2. [Back of the envelope estimation](courses/systemdesign/systemdesign.md#back-of-the-envelope-estimation)
+
+3. [A framework for system design interviews (4 lessons)](courses/systemdesign/systemdesign.md#a-framework-for-system-design-interviews)
+
+    1. [Step 1 : Understand the problem and establish design scope](courses/systemdesign/systemdesign.md#step-1-understand-the-problem-and-establish-design-scope)
+
+    2. [Step 2: Propose high level design and get buy-in](courses/systemdesign/systemdesign.md#step-2-propose-high-level-design-and-get-buy-in)
+
+    3. [Step 3: Deep Design Dive](courses/systemdesign/systemdesign.md#step-3-deep-design-dive)
+
+    4. [Step 4: Wrap up](courses/systemdesign/systemdesign.md#step-4-wrap-up)
+
+4. [Design A Rate Limiter (3 lessons)](courses/systemdesign/systemdesign.md#design-a-rate-limiter)
+
+    1. [Step 1 - Understand problem and establish design scope](courses/systemdesign/systemdesign.md#step-1-understand-problem-and-establish-design-scope)
+
+    2. [Step 2: Propose high-level design and get buy-in](courses/systemdesign/systemdesign.md#step-2-propose-high-level-design-and-get-buy-in-1)
+
+    3. [RL Algo](courses/systemdesign/systemdesign.md#rl-algo)
+
+5. [Design Consistent Hashing](courses/systemdesign/systemdesign.md#design-consistent-hashing)
+
+6. [Design A Key value store](courses/systemdesign/systemdesign.md#design-a-key-value-store)
+
+7. [Design A Unique ID Generator in Distributed Systems](courses/systemdesign/systemdesign.md#design-a-unique-id-generator-in-distributed-systems)
+
+8. [Design A URL Shortener](courses/systemdesign/systemdesign.md#design-a-url-shortener)
+
+9. [Design A Web Crawler](courses/systemdesign/systemdesign.md#design-a-web-crawler)
+
+10. [Design A Notification System](courses/systemdesign/systemdesign.md#design-a-notification-system)
+
+11. [Design A Newsfeed System](courses/systemdesign/systemdesign.md#design-a-newsfeed-system)
+
+12. [Design A Chat System](courses/systemdesign/systemdesign.md#design-a-chat-system)
+
+13. [Design A Search Autocomplete System](courses/systemdesign/systemdesign.md#design-a-search-autocomplete-system)
+
+14. [Design Youtube](courses/systemdesign/systemdesign.md#design-youtube)
+
+15. [Design Google Drive](courses/systemdesign/systemdesign.md#design-google-drive)
+
+16. [Proximity Service](courses/systemdesign/systemdesign.md#proximity-service)
+
+17. [Nearby Friends](courses/systemdesign/systemdesign.md#nearby-friends)
+
+18. [Google Maps](courses/systemdesign/systemdesign.md#google-maps)
+
+19. [Distributed Message Queue](courses/systemdesign/systemdesign.md#distributed-message-queue)
+
+20. [Metrics Monitoring and Alerting System](courses/systemdesign/systemdesign.md#metrics-monitoring-and-alerting-system)
+
+21. [Ad Click Event Aggregation](courses/systemdesign/systemdesign.md#ad-click-event-aggregation)
+
+22. [Hotel Reservation System](courses/systemdesign/systemdesign.md#hotel-reservation-system)
+
+23. [Distributed Email Service](courses/systemdesign/systemdesign.md#distributed-email-service)
+
+24. [S3-like Object Storage](courses/systemdesign/systemdesign.md#s3-like-object-storage)
+
+25. [Real-time Gaming Leaderboard](courses/systemdesign/systemdesign.md#real-time-gaming-leaderboard)
+
+26. [Payment System](courses/systemdesign/systemdesign.md#payment-system)
+
+27. [Digital Wallet](courses/systemdesign/systemdesign.md#digital-wallet)
+
+28. [Stock Exchange](courses/systemdesign/systemdesign.md#stock-exchange)
+
+29. [Conclusion](courses/systemdesign/systemdesign.md#conclusion)
+
 
 <br/><br/><br>
 
