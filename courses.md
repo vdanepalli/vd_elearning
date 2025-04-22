@@ -2,7 +2,11 @@
 
 ## 📍 Waypoints
 
-- [01. Data Structures & Algorithms](#01-data-structures-algorithms-1-file)
+- ["30. Coursera Professional Certificates"](#30-coursera-professional-certificates-7-files)
+
+- ["91. Fitness & Health"](#91-fitness-health-1-file)
+
+- [01. Data Structures & Algorithms](#01-data-structures-algorithms-2-files)
 
 - [02. Python Programming](#02-python-programming-3-files)
 
@@ -30,9 +34,244 @@
 
 <br/>
 
-## [01. Data Structures & Algorithms (1 file)](#-waypoints)
+## ["30. Coursera Professional Certificates" (7 files)](#-waypoints)
 
-### [1.](#01-data-structures-algorithms-1-file) [Data Structures and Algorithms (5 sections)](courses/dsa/dsa.md#data-structures-and-algorithms)
+### [1.](#30-coursera-professional-certificates-7-files) [Amazon Junior Software Developer Professional Certificate 199h (7 sections)](courses/coursera/ajsd.md#amazon-junior-software-developer-professional-certificate-199h)
+
+#### [1.1](#1-amazon-junior-software-developer-professional-certificate-199h-7-sections) [Introduction to Software Development 28h](courses/coursera/ajsd.md#introduction-to-software-development-28h)
+
+<br/>
+
+#### [1.2](#1-amazon-junior-software-developer-professional-certificate-199h-7-sections) [Programming with Java 26h](courses/coursera/ajsd.md#programming-with-java-26h)
+
+<br/>
+
+#### [1.3](#1-amazon-junior-software-developer-professional-certificate-199h-7-sections) [Data Structures and Algorithms 43h](courses/coursera/ajsd.md#data-structures-and-algorithms-43h)
+
+<br/>
+
+#### [1.4](#1-amazon-junior-software-developer-professional-certificate-199h-7-sections) [Database Management with SQL and Java 30h](courses/coursera/ajsd.md#database-management-with-sql-and-java-30h)
+
+<br/>
+
+#### [1.5](#1-amazon-junior-software-developer-professional-certificate-199h-7-sections) [Full Stack Web Development 33h](courses/coursera/ajsd.md#full-stack-web-development-33h)
+
+<br/>
+
+#### [1.6](#1-amazon-junior-software-developer-professional-certificate-199h-7-sections) [Generative AI in Software Development 17h](courses/coursera/ajsd.md#generative-ai-in-software-development-17h)
+
+<br/>
+
+#### [1.7](#1-amazon-junior-software-developer-professional-certificate-199h-7-sections) [Application Development 22h](courses/coursera/ajsd.md#application-development-22h)
+
+<br/><br/><br>
+
+### [2.](#30-coursera-professional-certificates-7-files) [Fractal Data Science Professional Certificate 157h (8 sections)](courses/coursera/fds.md#fractal-data-science-professional-certificate-157h)
+
+#### [2.1](#2-fractal-data-science-professional-certificate-157h-8-sections) [Structured Approach to Problem Solving 15h](courses/coursera/fds.md#structured-approach-to-problem-solving-15h)
+
+<br/>
+
+#### [2.2](#2-fractal-data-science-professional-certificate-157h-8-sections) [Data Analysis using SQL 18h](courses/coursera/fds.md#data-analysis-using-sql-18h)
+
+<br/>
+
+#### [2.3](#2-fractal-data-science-professional-certificate-157h-8-sections) [Insights of Power BI 14h](courses/coursera/fds.md#insights-of-power-bi-14h)
+
+<br/>
+
+#### [2.4](#2-fractal-data-science-professional-certificate-157h-8-sections) [Python for Data Science 39h](courses/coursera/fds.md#python-for-data-science-39h)
+
+<br/>
+
+#### [2.5](#2-fractal-data-science-professional-certificate-157h-8-sections) [Human Decision Making and its Biases 14h](courses/coursera/fds.md#human-decision-making-and-its-biases-14h)
+
+<br/>
+
+#### [2.6](#2-fractal-data-science-professional-certificate-157h-8-sections) [Foundations of Machine Leanring 25h](courses/coursera/fds.md#foundations-of-machine-leanring-25h)
+
+<br/>
+
+#### [2.7](#2-fractal-data-science-professional-certificate-157h-8-sections) [Advanced Machine Learning Algorithms 20h](courses/coursera/fds.md#advanced-machine-learning-algorithms-20h)
+
+<br/>
+
+#### [2.8](#2-fractal-data-science-professional-certificate-157h-8-sections) [Data Storytelling 12h](courses/coursera/fds.md#data-storytelling-12h)
+
+<br/><br/><br>
+
+### [3.](#30-coursera-professional-certificates-7-files) [Meta Back-End Developer Professional Certificate 232h (9 sections)](courses/coursera/mbed.md#meta-back-end-developer-professional-certificate-232h)
+
+#### [3.1](#3-meta-back-end-developer-professional-certificate-232h-9-sections) [Introduction to Back-end Development 19h](courses/coursera/mbed.md#introduction-to-back-end-development-19h)
+
+<br/>
+
+#### [3.2](#3-meta-back-end-developer-professional-certificate-232h-9-sections) [Programming in Python 45h](courses/coursera/mbed.md#programming-in-python-45h)
+
+<br/>
+
+#### [3.3](#3-meta-back-end-developer-professional-certificate-232h-9-sections) [Version Control - 18h](courses/coursera/mbed.md#version-control-18h)
+
+<br/>
+
+#### [3.4](#3-meta-back-end-developer-professional-certificate-232h-9-sections) [Introduction to Databases for Backend Development 27h](courses/coursera/mbed.md#introduction-to-databases-for-backend-development-27h)
+
+<br/>
+
+#### [3.5](#3-meta-back-end-developer-professional-certificate-232h-9-sections) [Django Web Framework 45h](courses/coursera/mbed.md#django-web-framework-45h)
+
+<br/>
+
+#### [3.6](#3-meta-back-end-developer-professional-certificate-232h-9-sections) [APIs 21h](courses/coursera/mbed.md#apis-21h)
+
+<br/>
+
+#### [3.7](#3-meta-back-end-developer-professional-certificate-232h-9-sections) [The FULL STACK 25h](courses/coursera/mbed.md#the-full-stack-25h)
+
+<br/>
+
+#### [3.8](#3-meta-back-end-developer-professional-certificate-232h-9-sections) [Back-End Developer Capstone 20h](courses/coursera/mbed.md#back-end-developer-capstone-20h)
+
+<br/>
+
+#### [3.9](#3-meta-back-end-developer-professional-certificate-232h-9-sections) [Coding Interview Preparation 12h](courses/coursera/mbed.md#coding-interview-preparation-12h)
+
+<br/><br/><br>
+
+### [4.](#30-coursera-professional-certificates-7-files) [Meta Data Analyst Professional Certificate 101h (5 sections)](courses/coursera/mda.md#meta-data-analyst-professional-certificate-101h)
+
+#### [4.1](#4-meta-data-analyst-professional-certificate-101h-5-sections) [Introduction to Data Analysis 17h](courses/coursera/mda.md#introduction-to-data-analysis-17h)
+
+<br/>
+
+#### [4.2](#4-meta-data-analyst-professional-certificate-101h-5-sections) [Data Analysis with Spreadsheets and SQL 26h](courses/coursera/mda.md#data-analysis-with-spreadsheets-and-sql-26h)
+
+<br/>
+
+#### [4.3](#4-meta-data-analyst-professional-certificate-101h-5-sections) [Python Data Analytics 22h](courses/coursera/mda.md#python-data-analytics-22h)
+
+<br/>
+
+#### [4.4](#4-meta-data-analyst-professional-certificate-101h-5-sections) [Statistics Foundations 21h](courses/coursera/mda.md#statistics-foundations-21h)
+
+<br/>
+
+#### [4.5](#4-meta-data-analyst-professional-certificate-101h-5-sections) [Introduction to Data Management - 15h](courses/coursera/mda.md#introduction-to-data-management-15h)
+
+<br/><br/><br>
+
+### [5.](#30-coursera-professional-certificates-7-files) [Meta Database Engineer Professional Certificate 228h (9 sections)](courses/coursera/mde.md#meta-database-engineer-professional-certificate-228h)
+
+#### [5.1](#5-meta-database-engineer-professional-certificate-228h-9-sections) [Introduction to Databases 27h](courses/coursera/mde.md#introduction-to-databases-27h)
+
+<br/>
+
+#### [5.2](#5-meta-database-engineer-professional-certificate-228h-9-sections) [Version Control 18h](courses/coursera/mde.md#version-control-18h)
+
+<br/>
+
+#### [5.3](#5-meta-database-engineer-professional-certificate-228h-9-sections) [Database Structures and Management with MySQL 32h](courses/coursera/mde.md#database-structures-and-management-with-mysql-32h)
+
+<br/>
+
+#### [5.4](#5-meta-database-engineer-professional-certificate-228h-9-sections) [Advanced MySQL Topics 18h](courses/coursera/mde.md#advanced-mysql-topics-18h)
+
+<br/>
+
+#### [5.5](#5-meta-database-engineer-professional-certificate-228h-9-sections) [Programming in Python 45h](courses/coursera/mde.md#programming-in-python-45h)
+
+<br/>
+
+#### [5.6](#5-meta-database-engineer-professional-certificate-228h-9-sections) [Database Clients 40h](courses/coursera/mde.md#database-clients-40h)
+
+<br/>
+
+#### [5.7](#5-meta-database-engineer-professional-certificate-228h-9-sections) [Advanced Data Modeling 18h](courses/coursera/mde.md#advanced-data-modeling-18h)
+
+<br/>
+
+#### [5.8](#5-meta-database-engineer-professional-certificate-228h-9-sections) [Database Engineer Capstone 18h](courses/coursera/mde.md#database-engineer-capstone-18h)
+
+<br/>
+
+#### [5.9](#5-meta-database-engineer-professional-certificate-228h-9-sections) [Coding Interview Preparation 12h](courses/coursera/mde.md#coding-interview-preparation-12h)
+
+<br/><br/><br>
+
+### [6.](#30-coursera-professional-certificates-7-files) [Microsoft Power BI Data Analyst 157h (8 sections)](courses/coursera/mpbida.md#microsoft-power-bi-data-analyst-157h)
+
+#### [6.1](#6-microsoft-power-bi-data-analyst-157h-8-sections) [Preparing Data for Analysis with Microsoft Excel 19h](courses/coursera/mpbida.md#preparing-data-for-analysis-with-microsoft-excel-19h)
+
+<br/>
+
+#### [6.2](#6-microsoft-power-bi-data-analyst-157h-8-sections) [Harness the power of Data with Power BI 17h (1 module)](courses/coursera/mpbida.md#harness-the-power-of-data-with-power-bi-17h)
+
+1. [Module 1](courses/coursera/mpbida.md#module-1)
+
+
+<br/>
+
+#### [6.3](#6-microsoft-power-bi-data-analyst-157h-8-sections) [Extract, Transform and Load Data in Power BI 20h](courses/coursera/mpbida.md#extract-transform-and-load-data-in-power-bi-20h)
+
+<br/>
+
+#### [6.4](#6-microsoft-power-bi-data-analyst-157h-8-sections) [Data Modeling in Power BI 24h](courses/coursera/mpbida.md#data-modeling-in-power-bi-24h)
+
+<br/>
+
+#### [6.5](#6-microsoft-power-bi-data-analyst-157h-8-sections) [Data Analysis and Visualization with Power BI 29h](courses/coursera/mpbida.md#data-analysis-and-visualization-with-power-bi-29h)
+
+<br/>
+
+#### [6.6](#6-microsoft-power-bi-data-analyst-157h-8-sections) [Creative Designing in Power BI 20h](courses/coursera/mpbida.md#creative-designing-in-power-bi-20h)
+
+<br/>
+
+#### [6.7](#6-microsoft-power-bi-data-analyst-157h-8-sections) [Deploy and Maintain Power BI Assets and Capstone Project 25h](courses/coursera/mpbida.md#deploy-and-maintain-power-bi-assets-and-capstone-project-25h)
+
+<br/>
+
+#### [6.8](#6-microsoft-power-bi-data-analyst-157h-8-sections) [Microsoft PL-300 Exam Preparation and Practice 38h](courses/coursera/mpbida.md#microsoft-pl-300-exam-preparation-and-practice-38h)
+
+<br/><br/><br>
+
+### [7.](#30-coursera-professional-certificates-7-files) [Microsoft Python Development Professional Certificate 132h (6 sections)](courses/coursera/mpd.md#microsoft-python-development-professional-certificate-132h)
+
+#### [7.1](#7-microsoft-python-development-professional-certificate-132h-6-sections) [Python Programming Fundamentals 24h](courses/coursera/mpd.md#python-programming-fundamentals-24h)
+
+<br/>
+
+#### [7.2](#7-microsoft-python-development-professional-certificate-132h-6-sections) [Data Analysis and Visualization with Python 20h](courses/coursera/mpd.md#data-analysis-and-visualization-with-python-20h)
+
+<br/>
+
+#### [7.3](#7-microsoft-python-development-professional-certificate-132h-6-sections) [Automation and Scripting with Python 26h](courses/coursera/mpd.md#automation-and-scripting-with-python-26h)
+
+<br/>
+
+#### [7.4](#7-microsoft-python-development-professional-certificate-132h-6-sections) [Web Development with Python 22h](courses/coursera/mpd.md#web-development-with-python-22h)
+
+<br/>
+
+#### [7.5](#7-microsoft-python-development-professional-certificate-132h-6-sections) [Advanced Python Development Techniques 21h](courses/coursera/mpd.md#advanced-python-development-techniques-21h)
+
+<br/>
+
+#### [7.6](#7-microsoft-python-development-professional-certificate-132h-6-sections) [Project Development in Python 19h](courses/coursera/mpd.md#project-development-in-python-19h)
+
+<br/><br/><br>
+
+## ["91. Fitness & Health" (1 file)](#-waypoints)
+
+### [1.](#91-fitness-health-1-file) [Fitness (1 section)](courses/fitness/fitness.md#fitness)
+
+#### [1.1](#1-fitness-1-section) [Coursera: Getting Started as a Personal Fitness Trainer](courses/fitness/fitness.md#coursera-getting-started-as-a-personal-fitness-trainer)
+
+<br/><br/><br>
+
+## [01. Data Structures & Algorithms (2 files)](#-waypoints)
+
+### [1.](#01-data-structures-algorithms-2-files) [Data Structures and Algorithms (5 sections)](courses/dsa/dsa.md#data-structures-and-algorithms)
 
 #### [1.1](#1-data-structures-and-algorithms-5-sections) [Neetcode: Algorithms and Data Structures for Beginners (25h) (11 modules)](courses/dsa/dsa.md#neetcode-algorithms-and-data-structures-for-beginners-25h)
 
@@ -150,6 +389,16 @@
 
     2. [443 String Comparison](courses/dsa/dsa.md#443-string-comparison)
 
+
+<br/><br/><br>
+
+### [2.](#01-data-structures-algorithms-2-files) [Leetcode (2 sections)](courses/dsa/leetcode.md#leetcode)
+
+#### [2.1](#2-leetcode-2-sections) [Two Sum](courses/dsa/leetcode.md#two-sum)
+
+<br/>
+
+#### [2.2](#2-leetcode-2-sections) [Valid Parentheses](courses/dsa/leetcode.md#valid-parentheses)
 
 <br/><br/><br>
 
@@ -381,11 +630,22 @@
 
 ## [10. AI & Machine Learning (3 files)](#-waypoints)
 
-### [1.](#10-ai-machine-learning-3-files) [Agentic AI (1 section)](courses/aiml/agents.md#agentic-ai)
+### [1.](#10-ai-machine-learning-3-files) [Agentic AI (2 sections)](courses/aiml/agents.md#agentic-ai)
 
-#### [1.1](#1-agentic-ai-1-section) [ZTM: AI Agents with AWS (1 module)](courses/aiml/agents.md#ztm-ai-agents-with-aws)
+#### [1.1](#1-agentic-ai-2-sections) [ZTM: AI Agents with AWS (1 module)](courses/aiml/agents.md#ztm-ai-agents-with-aws)
 
 1. [Intro](courses/aiml/agents.md#intro)
+
+
+<br/>
+
+#### [1.2](#1-agentic-ai-2-sections) [Microsoft: AI Skills Fest - Public Sector (3 modules)](courses/aiml/agents.md#microsoft-ai-skills-fest-public-sector)
+
+1. [Create and draft with Microsoft 365 Copilot](courses/aiml/agents.md#create-and-draft-with-microsoft-365-copilot)
+
+2. [Edit and transform content with Mcirosoft 365 Copilot](courses/aiml/agents.md#edit-and-transform-content-with-mcirosoft-365-copilot)
+
+3. [Ask questions and analyze content with Microsoft 365 Copilot](courses/aiml/agents.md#ask-questions-and-analyze-content-with-microsoft-365-copilot)
 
 
 <br/><br/><br>
