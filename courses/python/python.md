@@ -37,6 +37,8 @@
   - [Coursera: Web Development with Python](#coursera-web-development-with-python)
   - [Coursera: Advanced Python Development Techniques](#coursera-advanced-python-development-techniques)
   - [Coursera: Project Development in Python](#coursera-project-development-in-python)
+  - [Udemy, Krish: Complete Python With DSA](#udemy-krish-complete-python-with-dsa)
+    - [Basics](#basics-2)
 
 
 ## ZTM: Python Developer
@@ -442,3 +444,156 @@ while roll!=6:
 ## Coursera: Advanced Python Development Techniques
 
 ## Coursera: Project Development in Python
+
+## Udemy, Krish: Complete Python With DSA
+
+### Basics
+
+Case Sensitive, Indented, Line continuation for statement (`\`), Multiple statements in single line (separated by `;`)
+
+```python
+type(some_var)
+
+# Numbers
+big_number = 1_000_000_000_000 # int
+temperature = -5.5 # float
+light_speed = 3e8 # 3 * 10^8 - float
+z1 = 1 + 2j # complex; can use J as well
+
+# Sequence
+string = 'Ash' # str; immutable, ordered;; ""
+mylist = [3, 9] # list; mutable, ordered; []
+mytuple = (3, 9) # tuple; immutable, ordered; (), (39, )
+myrange = range(start, end, step) # ordered immutable
+
+# Set
+# Hashable -- do not change in its lifetime
+myset = set(); {3, 9} # set: unordered, mutable, hashable items
+myfronzenset = frozenset({3, 9}) # frozenset; unordered immutable, hashable items
+
+# Map
+# Keys must be hashable and unique
+mydict = {}; {"name":39} # unordered/insertion-ordered mutable
+
+boolean = True # bool immutable
+
+myash = None # immutable
+
+# Binary sequence
+mybytes = b'ash'; b'\x01\x02' # immutable ordered sequence of bytes (0-255)
+mybytearray = bytearray(b'ash') # mutable ordered
+
+mymemoryview = memoryview(b'ash')
+```
+
+Operations
+
+```py
++ # add, concat, merge?
+    # in a + b, python tries a.__add__(b); if not implemented, tries b.__radd__(a)
+    # a += b, python tries a.__iadd__(b)
+    # can only add objects of compatible types
+-
+* # mul, repeat
+/ # div, returns float
+// # floor div; N/D both int then int, else float
+% # modulo
+** # exponentiation
+
+==
+!=
+>
+<
+>=
+<=
+
+=
++=
+-=
+*=
+/=
+//=
+%=
+**=
+
+# instances of user-defined classes are truthy unless __bool__(), __len__() returns false or 0
+# Short-circuiting
+and
+or
+not
+
+
+is
+is not
+
+in
+not in
+
+&
+|
+^ # same 0, opp 1
+~ 
+<< # * 2^
+>> # / 2^
+
+"happy" if "ash" else "very happy?" # ternary operator
+while (line := file.readline()): print(line) # walrus operator (:=) ; assigns value to variable as part of a larger expression
+
+```
+
+Operator overloading using `__dunder__` methods
+
+`Divident = divisor * quotient + remainder`
+- truncated division -- rounds quotient towards zero (c, java)
+- floor division -- rounds quotient towards negative infinity (python)
+- examples
+  - `10 % 3` => `10 // 3` is `3` => `10 = 3 * 3 + remainder` => remainder = `1`
+  - `-10 % 3` => `-10 // 3` is `-4` => `3 * -4 + remainder` => remainder = `2`
+    - `0 <= result < divisor`
+  - `10 % -3` => `10 // -3` is `-4` => `-3 * -4 + remainder` => remainder = `-2`
+  - `-10 % -3` => `-10 // -3` is `3` => `3 * -3 + remainder` => remainder = `-1`
+- rules
+  - result sign matches divisor (denominator) sign
+  - negative dividend, positive divisor => add positive divisor to dividend until result is non-negative; first non-negative result less than divisor is answer. 
+- terminology
+  - dividend = numerator = what's being shared
+  - divisor = denominator = parts you are splitting into
+  - quotient = number of times divisor fits into dividend
+  - remainder = left overs
+```py
+result = (a % b + b) % b # makes sure result is between [0, |b|) even when b is -ve
+index % len(sequence) # always gives a valid positive index, even when index is negative
+
+
+items = ['A', 'B', 'C', 'D']
+index = 6
+print(items[index % len(items)]) # Output: C (6 % 4 = 2, items[2])
+
+index = -1
+print(items[index % len(items)]) # Output: D (-1 % 4 = 3, items[3])
+
+
+# What hour is it 5 hours after 10 on a 12-hour clock (result 1-12)?
+# Need to adjust for 0 result and make it 12
+hour = 10
+hours_to_add = 5
+new_hour = (hour + hours_to_add) % 12
+# If the result is 0, it means 12 o'clock
+print(new_hour if new_hour != 0 else 12) # Output: 3
+
+# A simpler way for 1-based cycles: (n-1 % cycle_length) + 1
+hour = 10
+hours_to_add = 5
+new_hour_0based = (hour - 1 + hours_to_add) % 12 # 9 + 5 = 14. 14 % 12 = 2
+new_hour_1based = new_hour_0based + 1            # 2 + 1 = 3
+print(new_hour_1based) # Output: 3
+
+# Day of the week (0=Mon, 6=Sun)
+today = 2 # Wednesday
+days_forward = 10
+future_day = (today + days_forward) % 7
+print(future_day) # Output: 5 (Friday)
+
+n % 10 # last digit
+n % 100 # last 2 digits
+```

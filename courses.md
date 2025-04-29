@@ -4,6 +4,8 @@
 
 - ["30. Coursera Professional Certificates"](#30-coursera-professional-certificates-7-files)
 
+- ["61. FEMA Emergency Management Institute"](#61-fema-emergency-management-institute-1-file)
+
 - ["91. Fitness & Health"](#91-fitness-health-1-file)
 
 - [01. Data Structures & Algorithms](#01-data-structures-algorithms-2-files)
@@ -204,9 +206,11 @@
 
 <br/>
 
-#### [6.2](#6-microsoft-power-bi-data-analyst-157h-8-sections) [Harness the power of Data with Power BI 17h (1 module)](courses/coursera/mpbida.md#harness-the-power-of-data-with-power-bi-17h)
+#### [6.2](#6-microsoft-power-bi-data-analyst-157h-8-sections) [Harness the power of Data with Power BI 17h (2 modules)](courses/coursera/mpbida.md#harness-the-power-of-data-with-power-bi-17h)
 
 1. [Module 1](courses/coursera/mpbida.md#module-1)
+
+2. [Module 2](courses/coursera/mpbida.md#module-2)
 
 
 <br/>
@@ -258,6 +262,28 @@
 <br/>
 
 #### [7.6](#7-microsoft-python-development-professional-certificate-132h-6-sections) [Project Development in Python 19h](courses/coursera/mpd.md#project-development-in-python-19h)
+
+<br/><br/><br>
+
+## ["61. FEMA Emergency Management Institute" (1 file)](#-waypoints)
+
+### [1.](#61-fema-emergency-management-institute-1-file) [Incident Command System (2 sections)](courses/fema/ics.md#incident-command-system)
+
+#### [1.1](#1-incident-command-system-2-sections) [ICS - 0100.c An Introduction to Incident Command System (3 modules)](courses/fema/ics.md#ics-0100c-an-introduction-to-incident-command-system)
+
+1. [ICS Overview](courses/fema/ics.md#ics-overview)
+
+2. [NIMS Characteristics](courses/fema/ics.md#nims-characteristics)
+
+3. [ICS Functional Areas and Command Staff Roles](courses/fema/ics.md#ics-functional-areas-and-command-staff-roles)
+
+
+<br/>
+
+#### [1.2](#1-incident-command-system-2-sections) [IS-200.C, ICS 200 Basic Incident Command System for Initial Response (1 module)](courses/fema/ics.md#is-200c-ics-200-basic-incident-command-system-for-initial-response)
+
+1. [Overview](courses/fema/ics.md#overview)
+
 
 <br/><br/><br>
 
@@ -410,9 +436,9 @@
 
 <br/><br/><br>
 
-### [2.](#02-python-programming-3-files) [Python (10 sections)](courses/python/python.md#python)
+### [2.](#02-python-programming-3-files) [Python (11 sections)](courses/python/python.md#python)
 
-#### [2.1](#2-python-10-sections) [ZTM: Python Developer (19 modules)](courses/python/python.md#ztm-python-developer)
+#### [2.1](#2-python-11-sections) [ZTM: Python Developer (19 modules)](courses/python/python.md#ztm-python-developer)
 
 1. [Introduction](courses/python/python.md#introduction)
 
@@ -455,19 +481,19 @@
 
 <br/>
 
-#### [2.2](#2-python-10-sections) [LinkedIn: Python Essential Training](courses/python/python.md#linkedin-python-essential-training)
+#### [2.2](#2-python-11-sections) [LinkedIn: Python Essential Training](courses/python/python.md#linkedin-python-essential-training)
 
 <br/>
 
-#### [2.3](#2-python-10-sections) [LinkedIn: Python Object-Oriented Programming](courses/python/python.md#linkedin-python-object-oriented-programming)
+#### [2.3](#2-python-11-sections) [LinkedIn: Python Object-Oriented Programming](courses/python/python.md#linkedin-python-object-oriented-programming)
 
 <br/>
 
-#### [2.4](#2-python-10-sections) [LinkedIn: Level Up: Python](courses/python/python.md#linkedin-level-up-python)
+#### [2.4](#2-python-11-sections) [LinkedIn: Level Up: Python](courses/python/python.md#linkedin-level-up-python)
 
 <br/>
 
-#### [2.5](#2-python-10-sections) [Coursera: Python Programming Fundamentals (6 modules)](courses/python/python.md#coursera-python-programming-fundamentals)
+#### [2.5](#2-python-11-sections) [Coursera: Python Programming Fundamentals (6 modules)](courses/python/python.md#coursera-python-programming-fundamentals)
 
 1. [Introduction](courses/python/python.md#introduction-1)
 
@@ -484,23 +510,30 @@
 
 <br/>
 
-#### [2.6](#2-python-10-sections) [Coursera: Data Analysis and Visualization with Python](courses/python/python.md#coursera-data-analysis-and-visualization-with-python)
+#### [2.6](#2-python-11-sections) [Coursera: Data Analysis and Visualization with Python](courses/python/python.md#coursera-data-analysis-and-visualization-with-python)
 
 <br/>
 
-#### [2.7](#2-python-10-sections) [Coursera: Automation and Scripting with Python](courses/python/python.md#coursera-automation-and-scripting-with-python)
+#### [2.7](#2-python-11-sections) [Coursera: Automation and Scripting with Python](courses/python/python.md#coursera-automation-and-scripting-with-python)
 
 <br/>
 
-#### [2.8](#2-python-10-sections) [Coursera: Web Development with Python](courses/python/python.md#coursera-web-development-with-python)
+#### [2.8](#2-python-11-sections) [Coursera: Web Development with Python](courses/python/python.md#coursera-web-development-with-python)
 
 <br/>
 
-#### [2.9](#2-python-10-sections) [Coursera: Advanced Python Development Techniques](courses/python/python.md#coursera-advanced-python-development-techniques)
+#### [2.9](#2-python-11-sections) [Coursera: Advanced Python Development Techniques](courses/python/python.md#coursera-advanced-python-development-techniques)
 
 <br/>
 
-#### [2.10](#2-python-10-sections) [Coursera: Project Development in Python](courses/python/python.md#coursera-project-development-in-python)
+#### [2.10](#2-python-11-sections) [Coursera: Project Development in Python](courses/python/python.md#coursera-project-development-in-python)
+
+<br/>
+
+#### [2.11](#2-python-11-sections) [Udemy, Krish: Complete Python With DSA (1 module)](courses/python/python.md#udemy-krish-complete-python-with-dsa)
+
+1. [Basics](courses/python/python.md#basics-2)
+
 
 <br/><br/><br>
 
@@ -687,11 +720,18 @@
 
 <br/><br/><br>
 
-### [3.](#10-ai-machine-learning-3-files) [Machine Learning (1 section)](courses/aiml/ml.md#machine-learning)
+### [3.](#10-ai-machine-learning-3-files) [Machine Learning (2 sections)](courses/aiml/ml.md#machine-learning)
 
-#### [3.1](#3-machine-learning-1-section) [Google: Machine Learning Crash Course (1 module)](courses/aiml/ml.md#google-machine-learning-crash-course)
+#### [3.1](#3-machine-learning-2-sections) [Google: Machine Learning Crash Course (1 module)](courses/aiml/ml.md#google-machine-learning-crash-course)
 
 1. [Introduction](courses/aiml/ml.md#introduction)
+
+
+<br/>
+
+#### [3.2](#3-machine-learning-2-sections) [LLM: Machine Learning (1 module)](courses/aiml/ml.md#llm-machine-learning)
+
+1. [Linear Algebra](courses/aiml/ml.md#linear-algebra)
 
 
 <br/><br/><br>
