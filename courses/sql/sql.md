@@ -3,6 +3,7 @@
 
 - [SQL](#sql)
   - [LinkedIn: Learning SQL Programming](#linkedin-learning-sql-programming)
+  - [LinkedIn: Microsoft SQL Server 2022 Essential Training](#linkedin-microsoft-sql-server-2022-essential-training)
 
 
 ## LinkedIn: Learning SQL Programming 
@@ -42,3 +43,12 @@
   - % -- matches anything
   - cols -- can be defined as case sensitive or insensitive
 - LIMIT n;
+
+## LinkedIn: Microsoft SQL Server 2022 Essential Training
+
+- editions
+  - Enterprise -- unlimited CPU cores and Memory
+  - Standard -- 24 cores, 128GB memory
+  - Express -- 16 cores, 64GB memory
+  - Developer
+- 

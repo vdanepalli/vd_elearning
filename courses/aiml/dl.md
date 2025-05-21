@@ -17,6 +17,7 @@
     - [Deep learning - A personal perspective](#deep-learning---a-personal-perspective)
     - [Beyond Deep Learning: Learning + Reasoning](#beyond-deep-learning-learning--reasoning)
     - [Computer Vision Meets Social Networks](#computer-vision-meets-social-networks)
+  - [CodeAcademy: Deep Learning with TensorFlow Image Classification](#codeacademy-deep-learning-with-tensorflow-image-classification)
 
 
 ## MIT: Intro to Deep Learning
@@ -299,3 +300,309 @@
 --------
 
 <br/><br/>
+
+
+## CodeAcademy: Deep Learning with TensorFlow Image Classification
+
+- Convolution layers: designed to process image data by focusing on local relationships between features
+- [Chest X-Ray Pneumonia dataset](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
+
+```py
+from tensorflow.keras.preprocessing.image ImageDataGenerator
+
+training_data_generator = ImageDataGenerator(
+  resclae = 1.0/255, # normalizes pixel values into 0-1
+  zoom_range = 0.2, # randomly increase or decrease size of image by 20%
+  rotation_range = 15, # -15, 15 degrees 
+  width_shift_range = 0.05, # 5% 
+  height_shift_range = 0.05
+  ) 
+
+
+DIRECTORY = "data/train"
+CLASS_MODE = "categorical" # categorical => one-hot encoding
+COLOR_MODE = "grayscale" # or rgb
+TARGET_SIZE = (256,256) # will be resized into this
+BATCH_SIZE = 32
+
+training_iterator = training_data_generator.flow_from_directory(
+  DIRECTORY,
+  class_mode=CLASS_MODE,
+  color_mode=COLOR_MODE,
+  target_size=TARGET_SIZE,
+  batch_size=BATCH_SIZE
+  ) # DirectoryIterator object
+
+sample_batch_input,sample_batch_labels  = training_iterator.next()
+
+print(sample_batch_input.shape,sample_batch_labels.shape)
+# (32, 256, 256, 1) (32, 2)
+```
+
+
+<br/><br/>
+
+```py
+import tensorflow as tf
+
+model = tf.keras.Sequential()
+
+model.add(tf.keras.Input(shape = (256, 256)))
+model.add(tf.keras.layers.Flatten()) # 1D vector of 65536 features
+model.add(tf.keras.layers.Dense(100, activation="relu"))
+model.add(tf.keras.layers.Dense(50, activation="relu"))
+model.add(tf.keras.layers.Dense(2, activation="softmax"))
+
+model.summary() # 6.5 million trainable params
+
+# above uses flatten to send one large array 256 x 256 x 1 as a long feature vector
+```
+
+
+<br/><br/>
+
+- smaller weight tensors -- filters -- kernels
+- move/convolve across height and width of input
+- filters compute new features by only combining features that are near to each other -- look for local patterns (edges and objects)
+- parmeters = number of filters x (input channels x height x width + 1)
+
+```py
+import tensorflow as tf
+
+model = tf.keras.Sequential()
+model.add(tf.keras.Input(shape=(256, 256, 1)))
+
+#Adds a Conv2D layer with 16 filters, each size 7x7:
+model.add(tf.keras.layers.Conv2D(16, 7,activation="relu"))
+model.summary()
+```
+
+- Stride -- hyperparameter -- how much we move filter each time we apply it -- default is 1
+- strider > 1 -- do not apply filter centered on every pixel
+- Padding -- hyperparameter -- what we do once filter reaches end of row/col
+  - valid padding -- stop
+  - same padding -- keep going -- pad input by surrounding with zeroes
+    - output feature map has same height and width as input
+    - outputsize = x - (filter size - 1) => `256 - (7 - 1)`  
+
+```py
+model.add(
+  tf.keras.layers.Conv2D(
+    16, # filters
+    7, # filter size
+    strides=2,
+    padding="valid",
+    activation="relu"
+  )
+)
+
+model.summary()
+```
+
+```py
+# Can stack conv layers
+model.add(tf.keras.layers.Conv2D(8, 5, strides=3, activation="relu"))
+model.add(tf.keras.layers.Conv2D(4, 3, strides=3, activation="relu"))
+model.add(tf.keras.layers.Conv2D(2, 2, strides=2, activation="relu"))
+
+# number of filters in prev layer become number of channels in next
+```
+
+
+<br/><br/>
+
+```py
+import tensorflow as tf
+
+model = tf.keras.Sequential()
+
+model.add(tf.keras.Input(shape=(256,256,1)))
+model.add(tf.keras.layers.Conv2D(2, 5, strides=3, activation="relu"))
+model.add(tf.keras.layers.Conv2D(4, 3, strides=1, activation="relu"))
+model.add(tf.keras.layers.Flatten())
+model.add(tf.keras.layers.Dense(2,activation="softmax"))
+
+model.summary()
+```
+
+- Pooling layers -- reduce dimensionality of intermediate output results; reduce overfitting; provide translational invariance (even if move objects in image, output will be same)
+- Max pooling
+  - instead of multiplying each image patch with a filter, we replace the patch with its maximum value
+
+```py
+max_pool_2d = tf.keras.layers.MaxPooling2D(pool_size=(3, 3),   strides=(3, 3), padding='valid')
+```
+
+- Area Under Curve gives relationship between true positives and false positives
+
+```py
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+import tensorflow as tf
+
+BATCH_SIZE = 16
+
+print("\nLoading training data...")
+
+training_data_generator = ImageDataGenerator(
+        rescale=1./255,
+        zoom_range=0.2,
+        rotation_range=15,
+        width_shift_range=0.05,
+        height_shift_range=0.05)
+
+training_iterator = training_data_generator.flow_from_directory(
+  'data/train',
+  class_mode='categorical',
+  color_mode='grayscale',
+  batch_size=BATCH_SIZE
+)
+
+print("\nLoading validation data...")
+
+validation_data_generator = ImageDataGenerator(rescale=1./255)
+
+validation_iterator = validation_data_generator.flow_from_directory(
+  'data/test', 
+  class_mode='categorical', 
+  color_mode='grayscale', 
+  batch_size = BATCH_SIZE
+)
+
+print("\nBuilding model...")
+
+model = tf.keras.Sequential()
+model.add(tf.keras.Input(shape=(256, 256, 1)))
+model.add(tf.keras.layers.Conv2D(2, 5, strides=3, activation="relu")) 
+model.add(tf.keras.layers.MaxPooling2D(
+    pool_size=(5, 5), strides=(5,5)))
+model.add(tf.keras.layers.Conv2D(4, 3, strides=1, activation="relu")) 
+model.add(tf.keras.layers.MaxPooling2D(
+    pool_size=(2,2), strides=(2,2)))
+model.add(tf.keras.layers.Flatten())
+
+model.add(tf.keras.layers.Dense(2,activation="softmax"))
+
+model.summary()
+
+
+print("\nCompiling model...")
+
+
+model.compile(
+   optimizer=tf.keras.optimizers.Adam(learning_rate=0.005),
+   loss=tf.keras.losses.CategoricalCrossentropy(),
+   metrics=[tf.keras.metrics.CategoricalAccuracy(),tf.keras.metrics.AUC()]
+)
+
+print("\nTraining model...")
+
+model.fit(
+       training_iterator,
+       steps_per_epoch=training_iterator.samples/BATCH_SIZE,
+       epochs=5,
+       validation_data=validation_iterator,
+       validation_steps=validation_iterator.samples/BATCH_SIZE
+)
+```
+
+
+- feature maps -- result of convolving a single filter across our input
+- in the initial layers, when we look at feature maps, we notice that the model tries to learn the structure, vertical and horizontal edges
+- as we go deeper, the feature maps get blurred
+
+
+<br/><br/>
+
+```py
+# utils.py
+import requests
+import io
+import numpy as np
+import os
+
+#Loads data from url
+def make_request(url):
+    print("Requesting data from {}...".format(url))
+    response = requests.get('https://content.codecademy.com/courses/deeplearning-with-tensorflow/'+url)
+    response.raise_for_status()
+    response_data = io.BytesIO(response.content)
+    return response_data
+    
+#Loads galaxy data
+def load_galaxy_data():
+  
+  #If cached file not found, loads data from url
+  if not os.path.isfile('./cached_data.npz'):
+     response_data = make_request(url='galaxydata.npz')
+
+     with open("cached_data.npz","wb") as save_file:
+      save_file.write(response_data.read())
+ 
+  #Load data using NumPy
+  data = np.load('cached_data.npz')
+
+  print("Successfully loaded galaxy data!")
+  
+  return data["data"],data["labels"]
+```
+
+```py
+# Classifying Galaxies
+
+import tensorflow as tf
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+
+from sklearn.model_selection import train_test_split
+from utils import load_galaxy_data
+
+input_data, labels = load_galaxy_data()
+print(input_data.shape) # last dimension indicates number of channels
+print(labels.shape) # last dimension indicates number of classes
+
+x_train, x_valid, y_train, y_valid = train_test_split(
+  input_data, 
+  labels, 
+  test_size=0.20, 
+  shuffle=True, 
+  random_state = 222, 
+  stratify = labels # ensures ratio of galaxies in testing is same as original dataset
+)
+
+data_generator = ImageDataGenerator(rescale=1./255)
+
+training_iterator = data_generator.flow(x_train, y_train, batch_size = 5)
+validation_iterator = data_generator.flow(x_valid, y_valid, batch_size = 5)
+
+model = tf.keras.Sequential()
+model.add(tf.keras.Input(shape=(128, 128, 3)))
+model.add(tf.keras.layers.Conv2D(8, 3, strides=2, activation="relu")) 
+model.add(tf.keras.layers.MaxPooling2D(
+    pool_size=(2, 2), strides=(2,2)))
+model.add(tf.keras.layers.Conv2D(8, 3, strides=2, activation="relu")) 
+model.add(tf.keras.layers.MaxPooling2D(
+    pool_size=(2,2), strides=(2,2)))
+model.add(tf.keras.layers.Flatten())
+model.add(tf.keras.layers.Dense(16, activation="relu"))
+model.add(tf.keras.layers.Dense(4, activation="softmax"))
+
+model.summary()
+
+model.compile(
+  optimizer = tf.keras.optimizers.Adam(learning_rate = 0.001), 
+  loss = tf.keras.losses.CategoricalCrossentropy(), 
+  metrics = [tf.keras.metrics.CategoricalAccuracy(), tf.keras.metrics.AUC()]
+)
+
+model.fit(
+  training_iterator, 
+  steps_per_epoch = len(x_train) / 5, 
+  epochs = 8, 
+  validation_data = validation_iterator, 
+  validation_steps = len(x_valid) / 5
+)
+
+
+from visualize import visualize_activations
+visualize_activations(model,validation_iterator)
+
+```

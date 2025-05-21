@@ -2,6 +2,7 @@
 
 - [Snowflake](#snowflake)
   - [LinkedIn: End to End Real-World Data Engineering Project with Snowflake](#linkedin-end-to-end-real-world-data-engineering-project-with-snowflake)
+  - [LinkedIn: Learning SnowflakeDB](#linkedin-learning-snowflakedb)
 
 
 ## LinkedIn: End to End Real-World Data Engineering Project with Snowflake
@@ -107,3 +108,113 @@
   - Task
   - Streams (incremental data from bronze to silver)
   - Views
+
+## LinkedIn: Learning SnowflakeDB
+
+- Snowflake DB: Cloud Native SaaS data warehouse and platform
+- Data Platforms
+  - SQL Analysis
+  - ETL and Processing
+  - Data Science
+  - BI and Analytics Tools
+- Data Warehouse
+  - Analytics and Reports
+  - Fast reads
+  - Column-based 
+  - Aggregate SQL queries
+  - Huge Volume
+  - Star Schema
+- Before and Afte Pipelines
+  - Input Connectors
+  - Streaming Ingest
+  - Output Connectors
+  - Visualization
+  - User Defined Functions
+  - Metadata
+  - Machine Learning
+
+
+<br/><br/>
+
+- Data Warehouse
+  - Structured Data
+  - Stored in Tables
+  - Schema on Read
+  - Huge Volume
+- Data Lake
+  - Unstructured data
+  - Stored in Object Storage
+  - Schema on read
+  - Massive volume
+- Data Lake House = Data Warehouse features in Data Lake
+- Used for  
+  - Ad Hoc Reads
+  - Data Warehouse Reads
+  - Data Lake Reads
+- Not for
+  - OLTP
+  - Transactions
+  - Constraint enforcement -- not enforced?
+  - Not Null is enforced
+- Key Features
+  - Virtual and Multicluster warehouses
+  - Time travel and zero-copy cloning
+  - data sharing and marketplace
+  - High availability via cross-cloud replications
+  - Granular security and automatic encryption
+  - Strong support for json data
+- Competition
+  - AWS RedShift
+  - GCP BigQuery
+  - Azure Synapse
+  - Databricks Apache Spark 
+
+
+<br/><br/>
+
+- Architecture
+  - Cloud Services - Authentication and Access, Infra Manager, Security, Optimization, MetaData Manager
+  - Query Processing - Virtual Warehouses
+  - Data Storage - Databases
+- TCO
+  - One Platform, One Copy of Data, Many Workloads
+  - Unlimited Performacne and Scale
+  - Near-Zero Maintenance as a Service
+  - Secured Governed access to All Data
+- Tools
+  - WebUI and console
+  - SnowSQL
+  - Snowpipe -- streaming ingest
+  - Drivers and SDK
+  - Snowpark APIs
+  - Partner Connections
+
+
+<br/><br/>
+
+- Tables > Schema > Database > Account
+- Snowflake Storage
+  - On Cloud Blob or file Storage
+  - Scalable and Available
+  - Encrypted
+  - Compressed 
+  - Autopartitioned
+- S3/Blob/Bucket -> External Table | Copy Command | Snowpipe Object -> Centralize Storage
+- Load Process
+  - Source from bucket
+  - Create or use file format
+  - Load with Web UI -- max 100MB
+  - Load with PUT Command and CLI
+  - Use Stage Tables intermediately
+- Table Types
+  - Permanent: Default
+  - Temporary: Session Only
+  - Transient: Beyond session with no fail-safe
+  - External: Data lake
+- Snowpipe: continuous data ingestion service. 
+
+
+<br/><br/>
+
+- Resource Monitor -- to monitor credit usage
+- 

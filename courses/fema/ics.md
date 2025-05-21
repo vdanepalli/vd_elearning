@@ -282,7 +282,7 @@ Command and Coordination
 3. Multi-agency Coordination MAC - Policy guidance and senior level decision making
 4. Joint Information System JIS - Outreach and communication
 
-## IS-200.C, ICS 200 Basic Incident Command System for Initial Response
+## [IS-200.C, ICS 200 Basic Incident Command System for Initial Response](https://emilms.fema.gov/is_0200c/curriculum/1.html)
 
 - NWCG National Wildfire Coordinating Group
 - USDA US Department of Agriculture
@@ -304,9 +304,32 @@ HSPD-8, National Preparedness -- DHS to lead national initiative to develop nati
 
 PPD-8, National Preparedness -- national whole community approach
 
-Unity of Command -- each and every one has only one supervisor
+NIMS components
+- Resource Management
+- Command and Coordination
+- Communications and Information management
+
+### Incident Command and Unified Command
 
 Chain of Commnad
-
+Unity of Command -- each and every one has only one supervisor
 Unified Commnad -- when no particular one has authority or resources
 - single Incident Command Post
+
+Formal communication -- assignments, requesting resources, progress etc
+Informal communication -- incident or event information
+
+After-Action reports, foot messengers, alternate means of communication
+
+Common Leadership Responsibilities
+- Communicate -- instruct, feedback
+- Supervise
+- Evaluate
+- Understand and Accept
+- Ensure
+- Take command
+- Motivate
+- Demonstrate
+
+Know, understand, practice responsibilities
+Commitment to duty, respect, and integrity

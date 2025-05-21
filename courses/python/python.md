@@ -39,6 +39,10 @@
   - [Coursera: Project Development in Python](#coursera-project-development-in-python)
   - [Udemy, Krish: Complete Python With DSA](#udemy-krish-complete-python-with-dsa)
     - [Basics](#basics-2)
+  - [Educative: PDF Management in Python](#educative-pdf-management-in-python)
+    - [Introduction](#introduction-2)
+  - [CodeAcademy: Python](#codeacademy-python)
+    - [Introduction](#introduction-3)
 
 
 ## ZTM: Python Developer
@@ -597,3 +601,24 @@ print(future_day) # Output: 5 (Friday)
 n % 10 # last digit
 n % 100 # last 2 digits
 ```
+
+## Educative: PDF Management in Python
+
+### Introduction
+
+- High level, object-oriented, interpreted; many libraries
+- PDF Portable Document Format -- structured binary file format
+- ISO International Organization for Standardization
+- vulnerabilities
+  - Denial of Service 
+  - Deflate Bomb
+  - Execute Code
+  - Memory Corruption
+
+
+## CodeAcademy: Python
+
+### Introduction
+
+- Errors, Bugs, Debugging
+- 
